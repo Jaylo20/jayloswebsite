@@ -1,0 +1,144 @@
+body{
+	background: linear-gradient(to right, skyblue, pink);
+	background-repeat: repeat-x;
+	background-size: contain;
+	padding: 0;
+}
+.head{
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-gap: 19px;
+	height: 20vh;
+	background: white;
+}
+.pic{
+	text-align: center;
+	padding-top: 10px;
+}
+.name{
+	font-size: 28px;
+	padding: 0;
+	color: #C12267;
+	text-align: left;
+}
+.menu{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 0;
+	height: 10vh;
+	padding-top: 35px;
+	padding-right: 15px;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.button{
+	text-align: right;
+}
+li{
+	font-size: 30px;
+	color: skyblue;
+}
+.button:hover {
+	color: pink;
+	transition: all .9s ease-out;
+}
+.slideshow{
+	position: relative;
+	height: 100vh;
+	width: 97vw;
+	border: 1px skyblue solid;
+	overflow: hidden;
+}
+
+.slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-repeat: no-repeat;
+}
+
+.slide1{
+	background-image: url(../images/james.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite;
+}
+
+.slide2{
+	background-image: url(../images/bret.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 4s;
+}
+
+.slide3{
+	background-image: url(../images/jeffree.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 8s;
+}
+
+.slide4{
+	background-image: url(../images/nikita.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 12s;
+}
+
+.slide5{
+	background-image: url(../images/raf.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 16s;
+}
+
+.slide6{
+	background-image: url(../images/jake.jpe);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 20s;
+}
+
+
+@keyframes disolveRound {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	35%{
+		opacity: 1;
+	}
+	45%{
+		opacity: 1;
+	}
+	60% {
+		opacity: 0;
+		transform: scale(1.1);
+	}
+}
+.word{
+	text-align: center;
+	font-size: 30px;
+	height: 10vh;
+	color: maroon;
+}
+.footer{
+	padding: 5px;
+	background: pink;
+	margin-bottom: 10px;
+	text-align: center;
+}

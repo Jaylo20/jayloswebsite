@@ -1,0 +1,139 @@
+body{
+	background: linear-gradient(to right, skyblue, pink)
+}
+.description{
+	display: grid;
+	grid-row: repeat(6,1fr);
+	grid-gap: 5px;
+}
+.james{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+	height: 50vh;
+	background: linear-gradient(to right, pink, purple);
+}
+.word{
+	text-align: justify;
+}
+.jc{
+	text-align: center;
+}
+.charles{
+	font-size: 18.5px;
+	text-indent: 25px;
+	margin-right: 10px;
+}
+.bret{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 10px;
+	height: 60vh;
+	background: linear-gradient(to right, yellowgreen, violet);
+}
+.word2{
+	text-align: justify;
+}
+.man{
+	text-align: center;
+}
+.rock{
+	font-size: 19px;
+	text-indent: 25px;
+	margin-left: 10px;
+}
+.pic2{
+	margin-top: 35px;
+	margin-right: 20px;
+}
+.jeffree{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+	height: 65vh;
+	background: linear-gradient(to right, #1338BE, #5af158);
+}
+.free{
+	text-align: center;
+}
+.jeff{
+	font-size: 18px;
+	text-align: justify;
+	text-indent: 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.pic3{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.nikita{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 10px;
+	height: 60vh;
+	background: linear-gradient(to right, #E39FF6, orange);
+}
+.niks{
+	text-align: center;
+}
+.ta{
+	text-align: justify;
+	text-indent: 25px;
+	margin-left: 10px;
+	font-size: 19px;
+}
+.raf{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+	height: 50vh;
+	background: linear-gradient(to right, #F4FF00, #DF2800);
+}
+.wants{
+	text-align: center;
+}
+.you{
+	text-align: justify;
+	text-indent: 25px;
+	font-size: 25px;
+	margin-right: 10px;
+}
+.jake{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 0;
+	height: 50vh;
+	background: linear-gradient(to right, #98FB98, skyblue);
+}
+.pic6{
+	text-align: right;
+}
+.jw{
+	text-align: center;
+}
+.ward{
+	text-indent: 25px;
+	text-align: justify;
+	font-size: 25px;
+	margin-left: 10px;
+}
+a {
+	text-decoration: none;
+}
+.button{
+	text-align: center;
+}
+li{
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+.button:hover {
+	color: #98FB98;
+	transition: all .9s ease-out;
+}
+.back{
+	list-style: none;
+}
+

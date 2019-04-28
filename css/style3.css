@@ -1,0 +1,153 @@
+body{
+	background: linear-gradient(to right, skyblue, pink)
+}
+.slideshow{
+	position: relative;
+	height: 50vh;
+	width: 97vw;
+	border: 1px skyblue solid;
+	overflow: hidden;
+}
+
+.slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-repeat: no-repeat;
+}
+
+.slide1{
+	background-image: url(../images/james.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite;
+}
+
+.slide2{
+	background-image: url(../images/bret.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 4s;
+}
+
+.slide3{
+	background-image: url(../images/jeffree.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 8s;
+}
+
+.slide4{
+	background-image: url(../images/nikita.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 12s;
+}
+
+.slide5{
+	background-image: url(../images/raf.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 16s;
+}
+
+.slide6{
+	background-image: url(../images/jake.jpe);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 24s linear infinite 20s;
+}
+
+
+@keyframes disolveRound {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	35%{
+		opacity: 1;
+	}
+	45%{
+		opacity: 1;
+	}
+	60% {
+		opacity: 0;
+		transform: scale(1.1);
+	}
+}
+.procedure{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	height: 70vh;
+}
+.left{
+	margin-left: 20px;
+	background: pink;
+	border-radius: 10px;
+}
+.top{
+	font-size: 50px;
+}
+.step{
+	font-size: 25px;
+}
+.right{
+	margin-right: 20px;
+	background: skyblue;
+	border-radius: 10px;
+}
+.button:hover {
+	color: #98FB98;
+	transition: all .9s ease-out;
+}
+.button{
+	font-size: 35px;
+	color:  black;
+}
+a{
+	text-decoration-line: none;
+}
+.footer{
+	padding: 5px;
+	background: pink;
+	margin-bottom: 10px;
+	text-align: center;
+	height: 10vh;
+}
+a {
+	text-decoration: none;
+}
+.button{
+	text-align: center;
+	text-decoration: none;
+}
+.name{
+	text-decoration: none;
+	list-style: none;
+}
+li{
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+.button:hover {
+	color: #98FB98;
+	transition: all .9s ease-out;
+}
+.back{
+	list-style: none;
+}
+
